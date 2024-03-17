@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # Heroku PostgreSQL database connection
-DATABASE_URL = "postgres://udobb39cgm9els:p24db4d4d75f25510abf79a2366501cbb5c1bd62fb4e88294c2a5e59466e55ad7@cc3engiv0mo271.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d5p2vblg0bijrj"
+DATABASE_URL = "postgres://u5n1q6udoiquuj:p85d60a7dbe8832e9a7e9ea3835b56cb3e027558618a477ba9cd3ad4f632ef1a3@ceu9lmqblp8t3q.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dfsveoilfa8jto"
 
 # Function to fetch weather data from OpenWeatherMap API
 def fetch_weather_data(city):
